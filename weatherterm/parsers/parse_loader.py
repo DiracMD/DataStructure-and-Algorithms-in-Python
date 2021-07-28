@@ -7,6 +7,7 @@ def _get_parser_list(dirname):
     return files
     # will return files located in the weatherterm/parsers
 
+
 def _import_parsers(parserfiles):
     m=re.compile(".+parser$")
     # + is will match one to finity . and $ show the end is parser 
